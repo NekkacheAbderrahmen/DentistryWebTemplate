@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Docteure NEKKACHE Leila dentiste</title>
+    <link rel="stylesheet" type="text/css" href="dentistesite.css" />
+    <script type="text/javascript" src="dentiste.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+</head>
+<body>
+    <div class='container-fluid'>
+        <!--     navbaar     -->
+        
+        <div class="row">
+            <nav class="navbar navbar-default"> 
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">NEKKACHE Leila</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active naving" ><a href="#">acueil</a></li>
+                    <li class="naving"><a href="#">urgence</a></li>
+                    <li class="naving"><a href="#">consultation</a></li>
+                    <li class="naving"><a href="#">soin</a></li>
+                    <li class="naving"><a href="#">detartrage</a></li>
+                    <li class="naving"><a href="#">O D F </a></li>
+                    <li class="naving"><a href="imp.html">Implants </a></li>
+                    <li class="naving"><a href="#">intervention de specialiste</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+        
+        <!--    _________________________________________________________-->
+        <!--_______caroussel________-->
+        <div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="slide_img" src="main_img/firstslide.jpg" alt="Los Angeles">
+                </div>
+
+                <div class="item">
+                    <img class="slide_img" src="main_img/secondslide.jpg" alt="Chicago">
+                </div>
+
+                <div class="item">
+                    <img class="slide_img" src="main_img/thirdslide.jpg" alt="New York">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+
+        </div>
+        <!--________________________________________-->
+        <!--__________text and image in the same line____________-->
+
+        <div class="row">
+            <div class="col-sm-6 "id="first-background-img" ><strong id="background_text"><h3>Tous les services sous un même toit!</br> Ouvert meme les samedis!</h3></strong></div>
+            <div class="col-sm-6" id="seconde_position">
+                Fondée en 2010 par le docteur Philippe Villeneuve, notre clinique est composée d’une équipe de professionnels dentaires expérimentés et dispose de diverses technologies de pointe pour vous assurer des soins de qualité.</br></br>
+
+                Nos chirurgiens dentistes généralistes sauront vous traiter avec attention, professionnalisme et en douceur, le tout dans une ambiance conviviale.</br></br>
+
+                Vous êtes anxieux face aux traitements dentaires? Désormais, vous irez chez votre dentiste en toute confiance!</br></br>
+            </div>
+        </div>
+    
+
+    <!--__________block of image in the same line__________-->
+        
+        <div class="four-img-block">
+            <div class="row">
+                <a href="#"> <img class="col-sm-3" id="first_img_block" href="www.google.com" src="main_img/Image1.jpg" alt="childrens" ></a> 
+                <a href="#"> <img class="col-sm-3" id="second_img_block" src="main_img/Image2.jpg" alt="Esthétique" href="#"></a> 
+                <a href="#"> <img class="col-sm-3" id='third_img_block' src="main_img/Image3.jpg" alt="Implants dentaires" href="#"></a> 
+                <a href="#"> <img class="col-sm-3" id="forth_img_block" src="main_img/Image4.jpg" alt="Orthodontie Invisalign" href="#"></a> 
+            </div>
+        </div>
+    <!--___________________________________________________-->
+    <!--the doctor and his description-->
+        <div class="row">
+            <div class ="col-md-6" id ="description_blok">
+                <h2>Dr Philippe Villeneuve</h2>
+                <h4>Chirurgien-dentiste</h4></br>
+                    <p>la mission du Dr nekkache leila est de participer a l'amelioration de la sante bucco-dentaire de 
+                    ces patient ,de lea aconpagner dans une ambiance 
+                    chalereuse et de s'assurer de cree des sourire satisfait. </br>
+                    nos patien sont prioritaire et le docteure nekkache est attentif a determiner vos objectif dentaie 
+                    en vous proposant different choix et alternative de traitement .
+                    tout ceci en fonction de vos besoin et surtout de vos attent .
+                    combinez a l'utilisation e la meillieure technologie ,le traitement est optimal.</p>
+                     <button class="btn btn-primary" id="description_button" type="button" onclick="window.location.href = 'doc_presentation.html';">En savoir plus!</button> 
+            </div>
+            <div clas="col-md-6" >
+                <img id="img_blok"  src="main_img/den_personal_img.jpg">
+            </div>
+        </div>
+    <!--____________________________________________-->
+    <!--_________urgence block_________-->
+        <div class="row">
+            <div class="col-sm-6" ><img id="urgence-img" src="main_img/img-urgence.jpg" ></div>
+            <div class="col-sm-6" id="urgence-description"><h2>Urgence dentaire<span class="block">24 h sur 24, 7 jours par semaine</span></br></h2>
+                <ul id="urgence-tab">
+                    <li>Mal de dents</li>
+                    <li>frature dentaire</li>
+                    <li>Abcés dentaire</li>
+                    <li>Douleure au gencives</li>
+                    <li>Douleure au machoire</li>
+                    <li>signe d'infection</li>
+                </ul>
+                <p>Nous contacter:</p>
+                <button id='urgence-buttom' type="button" class="btn btn-primary">0557289929</button>
+            </div>
+        </div>
+    <!--____________________________________________-->
+    <!--_______________children_________________-->
+        <div class="row">
+            <div class="col-sm-6" id="children-description">
+                <h2> Services privilégiés<span class="block">pour les enfants</span></h2>
+                <p>Pour cette première visite, nous vous proposons…</p>
+                <p>Lors de la première visite de votre enfant, le dentiste fera son examen et vous informera sur l’évolution de sa dentition.
+                L’hygiéniste dentaire procédera au nettoyage de ses dents pour ensuite vous transmettre des conseils d’hygiène et d’alimentation
+                adaptés aux besoins de votre enfant. Pour les visites, nous vous proposons de laisser votre enfant seul avec nos experts. 
+                Ils sauront le mettre en confiance et bien vous informer après la rencontre.</p>
+                <p><span class="btn btn-primary" onclick="window.location.href = 'child_page.html';">En savoir plus</span></p>
+            </div>
+            <div >
+                <img class="col-sm-6" id="children_img" src="main_img/children_img.jpg">
+            </div>
+
+        </div>
+    <!--______________________________________________-->
+    <!--_________________________RDV____________________-->
+        <div class="row">
+            <div class="col-sm-12" id='rdv'>
+                </br><h2 >Je désire un rendez-vous</br>
+                <span >pour un examen complet ou de routine</span></h2>
+                <button class="btn btn-primary" >Prendre un rendevous</button>
+            </div>
+        </div>
+        <div class='row'>
+            <table align="center" class="table table-bordered table-dark" id="rdv-tab" >
+                <thead>
+                <tr>
+                    <th class="col-sm-6" scope="col" id="rdv-add-1">Connaître notre horaire</th>
+                    <th class="col-sm-6" scope="col" id="rdv-add-2">66 Boul. Ste-Anne Ste-Anne-des-Plaines (Québec) J0N 1H0</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+
+<!--______________________________________________________________________________________-->
+<!--______________block of imamges with with link about the cabinet_______________________-->
+
+        <div class="row ">
+            <div class='col-sm-3 img-fluid img-thumbnail'><img id="first-cab-img"  src="main_img/first_cab_img.jpg"></img></div>
+            <div class='col-sm-3 img-fluid img-thumbnail'><img id="second-cab-img"  src="main_img/salle-de-traitement.jpg"></img></div>            
+            <div class='col-sm-3 img-fluid img-thumbnail'><img id="third-cab-img"  src="main_img/salle-attente.jpg"></img></div>
+            <div class='col-sm-3 img-fluid img-thumbnail'><img id="forth-cab-img"  src="main_img/dr-accueil.jpg"></img></div>                     
+        </div>
+<!--___________________________________________________________________________________________-->
+<!--____________________________footer___________________________________________________________-->
+<!-- Footer -->
+        <footer class="page-footer font-small blue pt-4" id="footer-block">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-3 mt-md-0 mt-3">
+                    <img id="footer-logo" src="main_img/logo_dentiste.jpg"></img>
+                    </div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h4>Joindre notre clinique</h4>
+                        <ul class="list-unstyled" id="footer-list1">
+                            <li>
+                                <a href="#!"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>  05 57 28 99 29  </a>
+                            </li>
+                            <li>
+                                <a href="#!" style="text-decoration: underline;"><span class="glyphicon glyphicon-map-marker" aria-hidden="true" ></span >Rue kiffane en face du centre de djezzy </br>numero du block 00</br>Tlemcen ALgerie</a>
+                            </li>
+                            <li>
+                                <a href="#!"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>  Notre page face-book</a></br>
+                            </li>
+                            <li>
+                                <button href="#" class="btn btn-primary" >Prendre un rendevous</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <h4>Heures de travail</h4>
+                        <table class="table">
+                        <thead>
+                            <tr>
+                            <th style="text-align: center;" scope="col">Jours</th>
+                            <th style="text-align: center;" scope="col">Heures</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <td>Samedi</td>
+                            <td>8H00 a 18H00</td>
+                            </tr>
+                            <tr>
+                            <td>Dimanche</td>
+                            <td>8H00 a 18H00</td>
+                            </tr>
+                            <tr>
+                            <td>Lundi</td>
+                            <td>8H00 a 18H00</td>
+                            </tr>
+                            <tr>
+                            <td>Mardi</td>
+                            <td>8H00 a 18H00</td>
+                            </tr>
+                            <tr>
+                            <td>Mercredi</td>
+                            <td>8H00 a 18H00</td>
+                            </tr>
+                            <tr>
+                            <td>Jeudi</td>
+                            <td>8H00 a 13H00</br></td>
+                            </tr>
+                            <tr>
+                            <td></td>
+                            <td></br></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <img id="footer-logo2" src="main_img/logo_docteure.jpg"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+        </footer>
+<!-- _____________________________________________________________________________ -->    
+
+    </div>
+
+</body>
+</html>

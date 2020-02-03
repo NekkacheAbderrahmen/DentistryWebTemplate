@@ -1,0 +1,191 @@
+body{
+    display: table;
+}
+
+.naving{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    background-color:antiquewhite;
+}
+.slide_img{
+    margin-left: 5%;
+}
+#first-background-img{
+    float: none;
+    background-image: url('main_img/dentisterie-philippe-villeneuve-services.jpg');
+    height: 100%;
+    display: table-cell;
+    text-align: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+#background_text{
+    color: antiquewhite;
+    font-size: xx-large;
+    margin-top:10%;
+    
+    
+
+}
+#seconde_position{
+    float:none;
+    display: table-cell;
+    background-color: #064683;
+    color: antiquewhite;
+    font-size: x-large; 
+
+}
+#description_blok{
+    float: left;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7em
+    
+}
+#description_button{
+    margin-left: 10%;
+
+}
+#img_blok{
+    float: right;
+    width: 50%;
+}
+#urgence-img{
+    float: left;
+    width: 100%;
+    height:450px;
+    
+}
+
+#urgence-description{
+    margin-top: 5%;
+    font-size: 22px;
+    height: 50%;
+}
+#urgence-tab{
+    margin-left: 10%;
+}
+#urgence-buttom{
+    margin-left: 10%;
+}
+#children-description{
+    margin-top: 5%;
+    float: left;
+    font-size: 22px;
+}
+#children-img{
+    float: right;
+    width: auto;
+
+}
+#rdv{
+    
+    font-size: xx-large;
+    text-align: center;
+    background-color: #064683;
+    color: antiquewhite;
+    line-height: 25px;
+    border-style: solid;
+    border-color:#064683;
+    height: auto;
+}
+#rdv-add-1{
+    border-style: solid;
+    border-color:antiquewhite;
+    background-color:#134d94;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#rdv-add-2{
+    border-style: solid;
+    color: antiquewhite;
+    background-color:#134d94;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#rdv-add{
+    margin-top: 10px;
+    background-color:#134d94;
+    text-align: center;
+    font-size: x-large;
+
+}
+#rdv-tab{
+    background-color: #134d94;
+    font-size: large;
+
+}
+#cab_block{
+    padding-right: 0%;
+
+}
+#first-cab-img{
+    float: left;
+    height:100%;
+    width:100%; 
+
+}
+
+#second-cab-img{
+    height:100%;
+    width: 100%;
+    float: left;
+    margin-left:0%;
+    
+}
+#third-cab-img{
+    float: left;
+    height: 112%;
+    width: 112%;
+    margin-top: 0px;
+    margin-left: 0%;
+}
+#forth-cab-img{
+    height:100%;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+#footer-logo{
+    height: 100%;
+    width: 100%;
+}
+#footer-block{
+    line-height: 250%;
+    
+    list-style: circle;
+
+}
+#footer-list1{
+    list-style: none;
+    text-align: center;
+    
+}
+#footer-list2{
+    list-style: circle;
+    text-align: left;
+}
+#footer-logo2{
+    margin-top: 7%;
+    height: 125%;
+    width: 125%;
+}
+
+#doc_presentation_img_blok{
+    height: 100%;
+    width: 100%;
+}
+#child_page_first_img{
+    height:100%;
+    width: 100%;
+}
